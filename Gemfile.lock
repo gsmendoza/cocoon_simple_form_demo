@@ -30,13 +30,14 @@ GEM
       multi_json (~> 1.0)
     arel (3.0.3)
     builder (3.0.4)
-    cocoon (1.2.0)
+    cocoon (1.2.5)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
     coffee-script-source (1.3.3)
     diff-lcs (1.1.3)
     erubis (2.7.0)
+    escape_utils (1.0.1)
     execjs (1.4.0)
       multi_json (~> 1.0)
     hike (1.2.3)
@@ -132,8 +133,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cocoon (~> 1.2.0)
+  cocoon (~> 1.2.5)
   coffee-script
+  escape_utils
   jquery-rails
   rails (= 3.2.16)
   rspec-rails (>= 2.0.1)
